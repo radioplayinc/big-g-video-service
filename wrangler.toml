@@ -1,0 +1,10 @@
+# Cloudflare Pages project config.
+# Deploy with: npx wrangler pages deploy public --project-name big-g-video-service
+# Secrets (NOTION_TOKEN, NOTION_DATABASE_ID, SENDER_EMAIL, ZELLE_NUMBER, RESEND_API_KEY)
+# are set via: npx wrangler pages secret put <NAME> --project-name big-g-video-service
+
+name = "big-g-video-service"
+compatibility_date = "2026-10-01"
+
+[pages]
+# functions/ directory is auto-detected for Pages Functions
